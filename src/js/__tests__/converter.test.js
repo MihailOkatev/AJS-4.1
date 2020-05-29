@@ -12,3 +12,10 @@ test('should show error', () => {
   }
   expect(result).toThrow();
 });
+
+test('should show error', () => {
+  function result() {
+    converter('0x12');
+  }
+  expect(result).toThrow();
+});
