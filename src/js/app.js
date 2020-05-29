@@ -1,5 +1,5 @@
 // TODO: write your code here
-import converter from './func';
+import converter from './converter';
 
 console.log('worked');
 

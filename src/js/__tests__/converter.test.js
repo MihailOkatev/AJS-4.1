@@ -1,4 +1,4 @@
-import converter from '../func';
+import converter from '../converter';
 
 test('should work correct', () => {
   const result = converter('123');
